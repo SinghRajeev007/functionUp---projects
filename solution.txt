@@ -1,1 +1,6 @@
-this is the solution for the file 
+diffence between ---- git restore and git restore --staged
+
+
+git restore: This command is used to restore changes to a file in the working directory. For example, if you've made changes to a file but want to discard them and go back to the last committed version of the file, you can use git restore <file> to do so. This command will discard any changes you've made to the file in the working directory.
+
+git restore --staged: This command is used to unstage changes that you've previously staged. When you make changes to a file in your working directory, you can use git add to stage those changes. If you then decide you don't want to commit those changes, you can use git restore --staged <file> to unstage them. This command will move the changes from the staging area back into the working directory, allowing you to make further changes or discard them altogether with git restore.
